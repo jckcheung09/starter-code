@@ -1,0 +1,54 @@
+header, section {
+	display: inline-block;
+}
+
+.left {
+	float: left;
+	width: 35%;
+}
+
+.right {
+	float: right;
+	width: 60%;
+}
+
+#headshot {
+	display: block;
+	text-align: center;
+	margin: 50px auto 0;
+	border: 2px solid #E13A63;
+}
+
+.experience {
+	display: inline-block;
+	clear: both;
+	margin-top: 30px;
+	text-align: center;
+}
+
+header, .experience {
+	border: 2px solid #E13A63;
+	padding: 10px;
+}
+@media screen and (max-width:850px){
+	.right{
+		float: none;
+		clear: both;
+		display: block;
+		text-align: center;
+		margin: auto;
+		width: 80%;
+	}
+	.left{
+		width: 100%;
+	}
+	#headshot{
+		float: none;
+		clear: both;
+		margin: auto;
+	}
+
+	.right h3{
+		text-align: left;
+	}
+}
